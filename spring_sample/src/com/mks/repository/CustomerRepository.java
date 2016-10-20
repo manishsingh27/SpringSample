@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.mks.model.Customer;
 
-public interface HibernateCustomerRepository {
+public interface CustomerRepository {
 
 	List<Customer> findAll();
 

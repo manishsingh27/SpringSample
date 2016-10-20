@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.mks.model.Customer;
 
-public class HibernateCustomerRepositoryImpl implements HibernateCustomerRepository {
+public class HibernateCustomerRepositoryImpl implements CustomerRepository {
 
 	/* (non-Javadoc)
 	 * @see com.mks.repository.HibernateCustomerRepository#findAll()
