@@ -3,13 +3,17 @@ package com.mks.repository;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.mks.model.Customer;
 
+@Repository("hibernateCustomerRepository")
 public class HibernateCustomerRepositoryImpl implements HibernateCustomerRepository {
 
 	/* (non-Javadoc)
 	 * @see com.mks.repository.HibernateCustomerRepository#findAll()
 	 */
+	
 	public List<Customer> findAll() {
 		List<Customer> customers = new ArrayList<>();
 
