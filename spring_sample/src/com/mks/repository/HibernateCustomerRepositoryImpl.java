@@ -3,9 +3,12 @@ package com.mks.repository;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.mks.model.Customer;
 
-public class HibernateCustomerRepositoryImpl implements HibernateCustomerRepository {
+@Repository
+public class HibernateCustomerRepositoryImpl implements CustomerRepository {
 
 	/* (non-Javadoc)
 	 * @see com.mks.repository.HibernateCustomerRepository#findAll()
