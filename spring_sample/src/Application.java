@@ -4,6 +4,10 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import com.mks.service.CustomerService;
 import com.mks.service.CustomerServiceImpl;
 
+/**
+ * @author MSingh
+ *
+ */
 public class Application {
 
 	public static void main(String[] args) {
